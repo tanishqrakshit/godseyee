@@ -1,0 +1,12 @@
+Api Website Details 
+website:- https://indianrailapi.com/
+
+Api Login Details 
+fameverse01@gmail.com
+
+password 
+tech@ss55
+
+json editor for decoding json code 
+https://jsoneditoronline.org/
+

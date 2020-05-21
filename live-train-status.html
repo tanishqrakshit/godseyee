@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>Live Train Status</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style1.css">
+
+  <link rel="stylesheet" type="text/css" href="css/w3.css">
+  <link rel="stylesheet" type="text/css" href="css/font.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="css/hover.css">
+
+
+
+</head>
+
+<body>
+
+
+<!-- Navbar -->
+
+<div class="w3-top">
+
+  <div class="w3-bar w3-white w3-card">
+
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-train"></i></a>
+
+    <a href=" index.html" class="w3-bar-item w3-light-gray w3-button w3-padding-large"><i class="fa fa-align-justify"></i> Home</a>
+
+    <a href="contact.html" class="w3-bar-item w3-button w3-right w3-padding-large w3-hide-small">Contact Us</a>
+
+    <a href="about.html" class="w3-bar-item w3-button w3-right w3-padding-large w3-hide-small">About Us</a>
+
+    
+
+   
+
+  </div>
+
+</div>
+
+
+
+<div class="a">
+
+  <h5 class="w3-center t1">GOD'S EYE <i class="fa fa-eye"></i></h5>
+  <br><br>
+
+<h3 class="type h1" ></h3>
+
+
+</div>
+
+
+
+
+
+
+<div class="body">
+
+
+
+<form class="w3-container w3-card-4 card w3-round-large w3-padding-large" method="post" action="php/live-train-status.php">
+
+<h3><b>Train No. <i class="fa fa-train"></i> </b></h3>
+
+<input type="text" name="train-no" class="w3-input w3-round-xlarge w3-border-black" placeholder="Enter Train No." required="">
+
+<h3><b>Date <i class="fa fa-calendar"></i></b></h3>
+
+<input type="date" name="date" class="w3-input w3-round-xlarge w3-border-black" required="">
+
+
+<input type="submit" name="find" value="Find" class="w3-button w3-black w3-margin-top w3-margin-bottom w3-border-black">
+
+
+
+
+
+</form>
+
+
+
+
+
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+  // Used to toggle the menu on small screens when clicking on the menu button
+
+function myFunction() {
+
+  var x = document.getElementById("navDemo");
+
+  if (x.className.indexOf("w3-show") == -1) {
+
+    x.className += " w3-show";
+
+  } else { 
+
+    x.className = x.className.replace(" w3-show", "");
+
+  }
+
+}
+
+</script>
+
+<script type="text/javascript" src="js/particles.js"></script>
+
+<script type="text/javascript" src="js/app.js"></script>
+
+
+
+</html>
